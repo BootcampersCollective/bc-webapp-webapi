@@ -1,0 +1,7 @@
+version: '3.1'
+
+services:
+  bc-webapp-webapi:
+    build: .
+    environment:
+      NODE_ENV: development
