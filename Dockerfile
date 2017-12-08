@@ -15,5 +15,5 @@ RUN yarn
 # Bundle app source
 COPY . .
 
-EXPOSE 3000
+EXPOSE 5010
 CMD [ "npm", "start" ]
